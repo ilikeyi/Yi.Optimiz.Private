@@ -3,17 +3,40 @@ Available languages
  * United States - English
  * 简体中文 - 中国
 
+<br>
 
-<h1>Yi's Optimiz Private</h1>
+Yi's Optimiz Private
 
-要求：
-```
-PowerShell 版本
-•	PowerShell 5.1
-需要 Windows 11、Windows 10、Windows Server 2022、Windows Server vNext 或系统默认自带的 5.1 版本，可选升级最新版 PowerShell 7。
-•	PowerShell 7
-获取最新版，前往 https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows 后，选择需要下载的版本，下载后并安装。
-```
+要求
+-
+
+## PowerShell 版本
+
+* PowerShell 5.1
+    * 需要 Windows 11、Windows 10、Windows Server 2022、Windows Server vNext 或系统默认自带的 5.1 版本，可选升级最新版 PowerShell 7。
+
+<br>
+
+* PowerShell 7
+    * 获取最新版，前往 https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows 后，选择需要下载的版本，下载后并安装。
+
+
+## 命令行
+
+   * 可选“Terminal ”或“PowerShell ISE”，未安装“Terminal”，请前往 https://github.com/microsoft/terminal/releases 后下载；
+   * 以管理员身份打开“Terminal”或“PowerShell ISE”，设置 PowerShell 执行策略：绕过，PS 命令行：
+     Set-ExecutionPolicy -ExecutionPolicy Bypass -Force
+   * 下载完成后，解压到任意盘，例如解压到：D:\Yi.Optimiz.Private
+   * 找到 D:\Yi.Optimiz.Private\Engine\Engine.ps1 后，点击文件右键，选择以 PowerShell 运行，或复制路径，粘贴到“Terminal ”或“PowerShell ISE”里运行，带冒号的路径，在命令行添加  & 字符，示例：& "D:\Yi.Optimiz.Private\Engine\Engine.ps1"
+
+<br>
+
+* PowerShell 7
+    * 获取最新版，前往 https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows 后，选择需要下载的版本，下载后并安装。
+
+
+
+
 
 
 主要功能：
