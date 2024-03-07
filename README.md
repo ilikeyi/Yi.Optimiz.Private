@@ -12,10 +12,10 @@ Yi's Optimiz Private
 <ul>2. 修改脚本后支持热刷新；</ul>
 <ul>3. 根据描述文件来实现部署规则；</ul>
 <ul>4. 自定义创建升级包</ul>
-<ul>
+<ul><dl><dd>
 
 [学习：如何创建自定义升级包](https://github.com/ilikeyi/Multilingual/blob/main/Learn/Custom.upgrade.package/Readme.md)
-</ul>
+</dd></dd></ul>
 
 <br>
 <ul>5. 自定义部署机制
@@ -50,9 +50,11 @@ Yi's Optimiz Private
 
 <br>
 <ul>6. 自定义部署标记</ul>
-<ul>
 
-[学习：使用部署标记干预部署过程](https://github.com/ilikeyi/Multilingual/tree/main/Learn/Deployment.Tag)</ul>
+<ul><dl><dd>
+
+[学习：使用部署标记干预部署过程](https://github.com/ilikeyi/Multilingual/tree/main/Learn/Deployment.Tag)
+</dl></dd></ul>
 
 <br>
 <ul>7. 更改用户文件夹的位置：桌面、文档、下载、音乐、图片、视频</ul>
