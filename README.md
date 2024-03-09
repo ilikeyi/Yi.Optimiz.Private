@@ -7,61 +7,61 @@ Available languages
 
 Yi's Optimiz Private
 
-<h4><pre>要求：</pre></h4>
-<p>PowerShell 版本</p>
+<h4><pre>Require</pre></h4>
+<p>PowerShell Version</p>
 
 * PowerShell 5.1
-    * 需要 Windows 11、Windows 10、Windows Server 2022、Windows Server vNext 或系统默认自带的 5.1 版本，可选升级最新版 PowerShell 7。
+    * Requires Windows 11, Windows 10, Windows Server 2022, Windows Server vNext or the 5.1 version that comes with the system by default. You can optionally upgrade to the latest version of PowerShell 7.
 
 <br>
 
 * PowerShell 7
-    * 获取最新版，前往 https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows 后，选择需要下载的版本，下载后并安装。
+    * To get the latest version, go to https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows, select the version you want to download, download and install.
 
 <br>
 
-<h4><pre>命令行</pre></h4>
+<h4><pre>Command Line</pre></h4>
 
-* 可选“Terminal ”或“PowerShell ISE”，未安装“Terminal”，请前往 https://github.com/microsoft/terminal/releases 后下载；
+* You can choose "Terminal" or "PowerShell ISE". If "Terminal" is not installed, please go to https://github.com/microsoft/terminal/releases to download;
 
-* 以管理员身份打开“Terminal”或“PowerShell ISE”，设置 PowerShell 执行策略：绕过，PS 命令行：
+* Open "Terminal" or "PowerShell ISE" as an administrator, set PowerShell execution policy: Bypass, PS command line:
 
 ```
 Set-ExecutionPolicy -ExecutionPolicy Bypass -Force
 ```
 
-   * 下载完成后，解压到任意盘，例如解压到：D:\Yi.Optimiz.Private
+   * After the download is completed, unzip it to any disk, for example, unzip it to: D:\Yi.Optimiz.Private
 
-   * 找到 D:\Yi.Optimiz.Private\Engine\Engine.ps1 后，点击文件右键，选择以 PowerShell 运行，或复制路径，粘贴到“Terminal ”或“PowerShell ISE”里运行，带冒号的路径，在命令行添加  & 字符，示例：& "D:\Yi.Optimiz.Private\Engine\Engine.ps1"
+   * After finding D:\Yi.Optimiz.Private\Engine\Engine.ps1, right-click the file and select Run as PowerShell, or copy the path and paste it into "Terminal" or "PowerShell ISE" to run. The path with a colon is in the command Add the & character to the line, example: & "D:\Yi.Optimiz.Private\Engine\Engine.ps1"
 
 <br>
-<h4><pre>主要功能：</pre></h4>
-<ul>1. 支持在线升级；</ul>
-<ul>2. 修改脚本后支持热刷新；</ul>
-<ul>3. 自定义创建升级包</ul>
+<h4><pre>The main function: </pre></h4>
+<ul>1. Support online upgrade;</ul>
+<ul>2. Support hot refresh after modifying the script;</ul>
+<ul>3. Customized creation of upgrade packages</ul>
 <ul><dl><dd>
 
-[学习：如何创建自定义升级包](https://github.com/ilikeyi/Multilingual/blob/main/Learn/Custom.upgrade.package/Readme.md)
+[Learn: How to create a custom upgrade package](https://github.com/ilikeyi/Multilingual/blob/main/Learn/Custom.upgrade.package/Readme.md)
 </dd></dd></ul>
 
 <br>
 <ul>
-   <p>4. 自定义部署机制</p>
+   <p>4. Custom deployment mechanism</p>
    <dl>
-      <dd>4.1. 根据描述文件来实现部署规则；</dd>
-      <dd>4.2. 获取已安装的语言包，自动添加；</dd>
-      <dd>4.3. 添加过程中，自动判断 S、SN 版，按规则添加；</dd>
-      <dd>4.4. 自动添加机制：
+      <dd>4.1. Implement deployment rules according to description files;</dd>
+      <dd>4.2. Get the installed language pack and add it automatically;</dd>
+      <dd>4.3. During the adding process, the S and SN versions are automatically determined and added according to the rules;</dd>
+      <dd>4.4. Automatic addition mechanism:
          <dl>
             <dd>
-               <p>4.4.1. 遇到单语版时，</p>
+               <p>4.4.1. When encountering the monolingual version, </p>
                <dl>
-                  <dd>仅单语时，自动添加当前语言为全局首选；</dd>
-                  <dd>单语版包含多语言包时，
+                  <dd>When only single language is used, the current language is automatically added as the global preferred language;</dd>
+                  <dd>When the monolingual version contains multi-language packages, 
                      <dl>
-                        <dd>添加首选语言后，获取等待添加的语言里有 en-US 时，则优先添加为第二语言；</dd>
-                        <dd>如果没有 en-US 时，随机选择已安装的语言为第二语言。</dd>
-                        <dd>例如单语版本标记：CoreSingleLanguage, CoreCountrySpecific</dd>
+                        <dd>After adding the preferred language, if en-US is among the languages waiting to be added, it will be added as the second language first;</dd>
+                        <dd>If there is no en-US, the installed language is randomly selected as the second language.</dd>
+                        <dd>For example, single language version tags: CoreSingleLanguage, CoreCountrySpecific</dd>
                      </dl>
                   </dd>
                </dl>
@@ -69,9 +69,9 @@ Set-ExecutionPolicy -ExecutionPolicy Bypass -Force
 
 <br>
             <dd>
-               <p>4.4.2. 遇到多语版时，</p>
+               <p>4.4.2. When encountering the multilingual version, </p>
                <dl>
-                  <dd>添加首选语言后，自动添加已安装的所有语言。</dd>
+                  <dd>After adding your preferred language, all installed languages are automatically added.</dd>
                </dl>
             </dd>
          </dl>
@@ -80,15 +80,15 @@ Set-ExecutionPolicy -ExecutionPolicy Bypass -Force
 </ul>
 
 <br>
-<ul>5. 自定义部署标记</ul>
+<ul>5. Custom deployment tags</ul>
 
 <ul><dl><dd>
 
-[学习：使用部署标记干预部署过程](https://github.com/ilikeyi/Multilingual/tree/main/Learn/Deployment.Tag)
+[Learn: Use deployment tags to intervene in the deployment process](https://github.com/ilikeyi/Multilingual/tree/main/Learn/Deployment.Tag)
 </dl></dd></ul>
 
 <br>
-<ul>6. 更改用户文件夹的位置：桌面、文档、下载、音乐、图片、视频</ul>
+<ul>6. Change the location of user folders: Desktop, Documents, Downloads, Music, Pictures, Videos</ul>
 <ul>7. 添加桌面图标：计算机、回收站、用户的文件、控制面板、网络、上帝模式、Internet Explorer</ul>
 
 
