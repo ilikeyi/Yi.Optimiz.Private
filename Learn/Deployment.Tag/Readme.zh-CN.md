@@ -1,6 +1,6 @@
 Available languages
 -
- * [United States - English](https://github.com/ilikeyi/Multilingual/blob/main/Learn/Deployment.Tag/Readme.md)
+ * [United States - English](https://github.com/ilikeyi/Yi.Optimiz.Private/blob/main/Learn/Deployment.Tag/Readme.md)
  * 简体中文 - 中国
 
 <br>
@@ -47,6 +47,9 @@ Available languages
 | \Deploy\{allow, Not Allowed}  | Disable_Cleanup_Appx_Tasks | Appx 清理维护任务 |
 | \Deploy\{allow, Not Allowed}  | Disable_Cleanup_On_Demand_Language | 阻止清理未使用的按需功能语言包 |
 | \Deploy\{allow, Not Allowed}  | Disable_Cleanup_Unsed_Language | 阻止清理未使用的语言包 |
+| \Deploy\{allow, Not Allowed}  | Exclude_Defender | 添加主目录到 Defend 排除目录 |
+| \Deploy\{allow, Not Allowed}  | Sync_Volume_Name | 系统盘卷标：主目录名相同 |
+| \Deploy\{allow, Not Allowed}  | Desktop_Menu | 添加个性化“上下文菜单” |
 | \Deploy\{allow, Not Allowed}  | Prerequisites_Reboot  | 重新启动计算机<br>完成先决部署后重新启动计算机，可解决需重启才生效的问题。|
 
 <dd></dl>
@@ -78,4 +81,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Yi - [https://fengyi.tel](https://fengyi.tel) - 775159955@qq.com
 
-Project Link: [https://github.com/ilikeyi/Multilingual](https://github.com/ilikeyi/Multilingual)
+Project Link: [https://github.com/ilikeyi/Multilingual](https://github.com/ilikeyi/Yi.Optimiz.Private)
