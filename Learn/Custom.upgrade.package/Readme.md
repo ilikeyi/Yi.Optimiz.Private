@@ -1,7 +1,7 @@
 Available languages
 -
  * United States - English
- * [简体中文 - 中国](https://github.com/ilikeyi/Multilingual/blob/main/Learn/Custom.upgrade.package/Readme.zh-CN.md)
+ * [简体中文 - 中国](https://github.com/ilikeyi/Yi.Optimiz.Private/blob/main/Learn/Custom.upgrade.package/Readme.zh-CN.md)
 
 <h4><pre>How to custom create an upgrade package</pre></h4>
 
@@ -27,4 +27,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Yi - [https://fengyi.tel](https://fengyi.tel) - 775159955@qq.com
 
-Project Link: [https://github.com/ilikeyi/Multilingual](https://github.com/ilikeyi/Multilingual)
+Project Link: [https://github.com/ilikeyi/Multilingual](https://github.com/ilikeyi/Yi.Optimiz.Private)
