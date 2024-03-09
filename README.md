@@ -13,6 +13,8 @@ Yi's Optimiz Private
 * PowerShell 5.1
     * 需要 Windows 11、Windows 10、Windows Server 2022、Windows Server vNext 或系统默认自带的 5.1 版本，可选升级最新版 PowerShell 7。
 
+<br>
+
 * PowerShell 7
     * 获取最新版，前往 https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows 后，选择需要下载的版本，下载后并安装。
 
@@ -43,14 +45,16 @@ Set-ExecutionPolicy -ExecutionPolicy Bypass -Force
 </dd></dd></ul>
 
 <br>
-<ul>4. 自定义部署机制
+<ul>
+   <p>4. 自定义部署机制</p>
    <dl>
       <dd>4.1. 根据描述文件来实现部署规则；</dd>
       <dd>4.2. 获取已安装的语言包，自动添加；</dd>
       <dd>4.3. 添加过程中，自动判断 S、SN 版，按规则添加；</dd>
       <dd>4.4. 自动添加机制：
          <dl>
-            <dd>4.4.1. 遇到单语版时，
+            <dd>
+               <p>4.4.1. 遇到单语版时，</p>
                <dl>
                   <dd>仅单语时，自动添加当前语言为全局首选；</dd>
                   <dd>单语版包含多语言包时，
@@ -64,7 +68,8 @@ Set-ExecutionPolicy -ExecutionPolicy Bypass -Force
             </dd>
 
 <br>
-            <dd>4.4.2. 遇到多语版时，
+            <dd>
+               <p>4.4.2. 遇到多语版时，</p>
                <dl>
                   <dd>添加首选语言后，自动添加已安装的所有语言。</dd>
                </dl>
@@ -87,7 +92,8 @@ Set-ExecutionPolicy -ExecutionPolicy Bypass -Force
 <ul>7. 添加桌面图标：计算机、回收站、用户的文件、控制面板、网络、上帝模式、Internet Explorer</ul>
 
 
-<ul>8. 优化
+<ul>
+   <p>8. 优化</p>
    <dl>
       <dd>8.1. 系统类<dl><dd>禁用 TPM 安装检查，禁用 TPM 阻止您升级系统，保留空间，休眠，电源模式：高性能，"此应用正在阻止关机或重新启动" 屏幕，NumLock 键开机后自动亮起，用户账户控制 (UAC)：从不通知我，Smart Screen 应用和文件检查，SmartScreen 下载的文件标记为不安全，轻松访问键盘的东西，自动维护计划，客户体验改善计划，磁盘碎片整理计划，程序兼容性助手，优化视觉动画效果，Windows 错误恢复，DEP 和 PAE，断电后自动修复功能，密码最长使用时间为无限，降低 RAM 使用处理器数量，禁用存储感知，传递优化，照片预览，"Windows 保护了您的 PC" 对话框，错误报告，F8 启动菜单选项，SSD，内存压缩，预取预启动</dl></dd></dd>
       <dd>8.2.	优化网络<dl><dd>恢复 IE 设置代理不生效，IE 自动检查设置，网络发现文件和打印机共享，关闭网络适配器以节省电量，Internet 协议版本 6 (TCP/IPv6)组件，QOS 服务，网络调优功能，ECN 功能</dl></dd></dd>
@@ -105,7 +111,8 @@ Set-ExecutionPolicy -ExecutionPolicy Bypass -Force
 </ul>
 
 <br>
-<ul>9. 优化服务
+<ul>
+   <p>9. 优化服务</p>
    <dl>
       <dd>9.1. 关闭 Windows 更新</dd>
       <dd>9.2. Microsoft Defender 防火墙</dd>
@@ -116,7 +123,8 @@ Set-ExecutionPolicy -ExecutionPolicy Bypass -Force
 </ul>
 
 <br>
-<ul>10. 删除 UWP 应用
+<ul>
+   <p>10. 删除 UWP 应用</p>
    <dl>
       <dd>阻止重新安装应用程序，隐藏 在 "设置" 应用中向我推荐内容，关闭 Microsoft Store 自动下载 ，阻止安装“建议的应用程序”，有关如何设置设备的建议</dd>
    </dl>
