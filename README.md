@@ -41,7 +41,7 @@ Set-ExecutionPolicy -ExecutionPolicy Bypass -Force
 <ul>3. Customized creation of upgrade packages</ul>
 <ul><dl><dd>
 
-[Learn: How to create a custom upgrade package](https://github.com/ilikeyi/Multilingual/blob/main/Learn/Custom.upgrade.package/Readme.md)
+[Learn: How to create a custom upgrade package](https://github.com/ilikeyi/Yi.Optimiz.Private/blob/main/Learn/Custom.upgrade.package/Readme.md)
 </dd></dd></ul>
 
 <br>
@@ -84,7 +84,7 @@ Set-ExecutionPolicy -ExecutionPolicy Bypass -Force
 
 <ul><dl><dd>
 
-[Learn: Use deployment tags to intervene in the deployment process](https://github.com/ilikeyi/Multilingual/tree/main/Learn/Deployment.Tag)
+[Learn: Use deployment tags to intervene in the deployment process](https://github.com/ilikeyi/Yi.Optimiz.Private/tree/main/Learn/Deployment.Tag)
 </dl></dd></ul>
 
 <br>
