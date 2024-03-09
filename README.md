@@ -89,23 +89,62 @@ Set-ExecutionPolicy -ExecutionPolicy Bypass -Force
 
 <br>
 <ul>6. Change the location of user folders: Desktop, Documents, Downloads, Music, Pictures, Videos</ul>
-<ul>7. 添加桌面图标：计算机、回收站、用户的文件、控制面板、网络、上帝模式、Internet Explorer</ul>
+<ul>7. Add desktop icons: Computer, Recycle Bin, User's Files, Control Panel, Network, God Mode, Internet Explorer</ul>
 
 
 <ul>
-   <p>8. 优化</p>
+   <p>8. Optimization</p>
    <dl>
-      <dd>8.1. 系统类<dl><dd>禁用 TPM 安装检查，禁用 TPM 阻止您升级系统，保留空间，休眠，电源模式：高性能，"此应用正在阻止关机或重新启动" 屏幕，NumLock 键开机后自动亮起，用户账户控制 (UAC)：从不通知我，Smart Screen 应用和文件检查，SmartScreen 下载的文件标记为不安全，轻松访问键盘的东西，自动维护计划，客户体验改善计划，磁盘碎片整理计划，程序兼容性助手，优化视觉动画效果，Windows 错误恢复，DEP 和 PAE，断电后自动修复功能，密码最长使用时间为无限，降低 RAM 使用处理器数量，禁用存储感知，传递优化，照片预览，"Windows 保护了您的 PC" 对话框，错误报告，F8 启动菜单选项，SSD，内存压缩，预取预启动</dl></dd></dd>
-      <dd>8.2.	优化网络<dl><dd>恢复 IE 设置代理不生效，IE 自动检查设置，网络发现文件和打印机共享，关闭网络适配器以节省电量，Internet 协议版本 6 (TCP/IPv6)组件，QOS 服务，网络调优功能，ECN 功能</dl></dd></dd>
-      <dd>8.3.	文件资源管理器<dl><dd>每个资源管理器窗口使用单独进程，登录后重启应用，项目复选框，缩略图缓存删除，将默认资源管理器视图设置为：此 PC，Aero Shake 摇一摇降到最低功能，显示 已知文件类型的扩展名，常见文件类型安全警告，设置 文件传输对话框：详细信息，在导航窗格中打开 "显示所有文件夹"，自动播放，自动运行所有驱动器，"快速访问" 中显示最近使用的文件，"快速访问" 和显示常用文件夹，删除快捷方式小箭头和后缀，从这台 PC 上删除：桌面、文档、下载、音乐、图片、视频、3D对象</dl></dd></dd>
-      <dd>8.4.	上下文菜单<dl><dd>启用经典风格，取得所有权，添加 复制路径，增加 15 个文件选择限制</dl></dd></dd>
-      <dd>8.5. 关闭通知中心：完全、部分</dd>
-      <dd>8.6. 设置系统分页大小：8G、16G</dd>
-      <dd>8.7. 个性化<dl><dd>将深色应用到：应用程序、系统，透明效果，Snap 辅助</dl></dd></dd>
-      <dd>8.8. 开始菜单和任务栏<dl><dd>将任务栏圣齐设置为：居中、左对齐，隐藏 任务栏小组件图标，删除 小组件，Microsoft Teams 自动启动，Microsoft Teams 聊天图标，开始菜单中的 Bing 搜索，隐藏 在 "设置" 应用中向我推荐内容，有关如何设置设备的建议，设置 任务栏：显示搜索图标，合并任务栏按钮：从不，通知区域：始终显示所有图标，在任务栏上隐藏 Cortana 按钮，在任务上隐藏 任务视图 按钮</dl></dd></dd>
-      <dd>8.9. 游戏<dl><dd>Xbox 游戏栏，Xbox 游戏栏提示，Xbox 游戏模式，Xbox DVR</dl></dd></dd>
+      <dd>
+         <p>8.1. System class</p>
+         <dl><dd>Disable TPM installation checks, disabling TPM prevents you from upgrading the system, reserve space, hibernate, power mode: high performance, "This application is preventing a shutdown or restart" screen, NumLock key automatically lights up after power on, User Account Control (UAC): Never notify me, Smart Screen app and file check, SmartScreen downloaded files marked as unsafe, Easy access to keyboard stuff, Automatic maintenance plan, Customer experience improvement plan, Disk defragmentation plan, Program Compatibility Assistant, Optimize visual animation effects , Windows Error Recovery, DEP and PAE, Auto-repair after power outage, Infinite maximum password age, Reduce the number of processors used by RAM, Disable Storage Sense, Delivery Optimization, Photo Preview, "Windows Protects Your PC" dialog box, bug reporting, F8 boot menu option, SSD, memory compression, prefetch preboot</dl></dd>
+      </dd>
+
+<br>
+      <dd>
+         <p>8.2.	Optimize network</p>
+         <dl><dd>Restore IE settings proxy does not take effect, IE automatically checks settings, network discovery file and printer sharing, turn off the network adapter to save power, Internet Protocol version 6 (TCP/IPv6) component, QOS service, network tuning function, ECN function</dl></dd>
+      </dd>
+
+<br>
+      <dd>
+         <p>8.3.	File explorer</p>
+         <dl><dd>Use separate process for each Explorer window, restart app after login, project checkbox, thumbnail cache removal, set default Explorer view to: This PC, Aero Shake Shake to lowest functionality, show known Extensions for file types, Common file type security warnings, Set up file transfer dialog: Details, Turn on Show all folders in the navigation pane, Autoplay, Autorun all drives, Show recently used in Quick Access Files, "Quick Access" and display frequently used folders, delete shortcut arrows and suffixes, delete from this PC: Desktop, Documents, Downloads, Music, Pictures, Videos, 3D Objects</dl></dd>
+         </dd>
+
+<br>
+      <dd>
+         <p>8.4.	Context menu</p>
+         <dl><dd>Enable classic style, take ownership, add copy path, add 15 file selection limit</dl></dd>
+      </dd>
+
+<br>
+      <dd>8.5. Close Notification Center: Fully, Partially</dd>
+      <dd>8.6. Set system paging size: 8G, 16G</dd>
+      <dd>
+         <p>8.7. Personalise</p>
+         <dl><dd>Apply dark colors to: Apps, System, Transparency, Snap Assist</dl></dd>
+      </dd>
+
+<br>
+      <dd>
+         <p>8.8. Start menu and taskbar</p>
+         <dl><dd>Set taskbar to: center, left aligned, hide taskbar widget icon, delete widget, Microsoft Teams auto-start, Microsoft Teams chat icon, Bing search in start menu, hide from me in Settings app Recommended content, Advice on how to set up your device, Set up the taskbar: Show search icon, Merge taskbar buttons: Never, Notification area: Always show all icons, Hide Cortana button on taskbar, Hide task view button on tasks</dl></dd>
+      </dd>
+
+<br>
+      <dd>
+         <p>8.9. Game</p>
+         <dl><dd>Xbox Game Bar, Xbox Game Bar Tips, Xbox Game Mode, Xbox DVR</dl></dd>
+      </dd>
+
+<br>
       <dd>8.10. 隐私设置<dl><dd>诊断跟踪计划任务，向 MS 发送语音、墨迹和打字样本，向 MS 发送联系人，让网站通过访问我的语言列表来提供本的相关内容，让应用使我的广告 ID 进行跨应用体验，位置感知打印，设置同步，墨迹书写和打字个性化，与未配对设备共享信息，位置传感器，Windows Hello 生物识别，兼容性遥测，诊断数据，量身定制的体验，反馈通知，位置追踪，互联用户体验和遥测，默认应用的后台访问，向 MS 提交 Windows Defend 调查结果，时间轴时间，收集活动历史记录</dl></dd></dd>
+
+<br>
       <dd>8.11. 其它：<dl><dd>启用 3389 远程桌面，打开 SMB 文件共享</dl></dd></dd>
+
+<br>
       <dd>8.12. 清理：<dl><dd>发送到，系统日志，磁盘清理，WinSxS</dl></dd></dd>
    </dl>
 </ul>
