@@ -1,6 +1,6 @@
 Available languages
 -
- * [United States - English](https://github.com/ilikeyi/Multilingual/tree/main/Learn/Custom.upgrade.package)
+ * [United States - English](https://github.com/ilikeyi/Yi.Optimiz.Private/tree/main/Learn/Custom.upgrade.package)
  * 简体中文 - 中国
 
 <h4><pre>如何自定义创建升级包</pre></h4>
@@ -27,4 +27,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Yi - [https://fengyi.tel](https://fengyi.tel) - 775159955@qq.com
 
-Project Link: [https://github.com/ilikeyi/Multilingual](https://github.com/ilikeyi/Multilingual)
+Project Link: [https://github.com/ilikeyi/Multilingual](https://github.com/ilikeyi/Yi.Optimiz.Private)
