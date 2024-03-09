@@ -1,7 +1,7 @@
 Available languages
 -
  * United States - English
- * [简体中文 - 中国](https://github.com/ilikeyi/Multilingual/blob/main/Learn/Deployment.Tag/Readme.zh-CN.md)
+ * [简体中文 - 中国](https://github.com/ilikeyi/Yi.Optimiz.Private/blob/main/Learn/Deployment.Tag/Readme.zh-CN.md)
 
 <br>
 <h4><pre>Intervene in the deployment process using deployment tags</pre></h4>
@@ -46,6 +46,9 @@ Download template: Engine.Deploy.Rule.ISO
 | \Deploy\{allow, Not Allowed}  | Disable_Cleanup_Appx_Tasks | Appx cleanup maintenance tasks |
 | \Deploy\{allow, Not Allowed}  | Disable_Cleanup_On_Demand_Language | Prevent cleanup of unused feature-on-demand language packs |
 | \Deploy\{allow, Not Allowed}  | Disable_Cleanup_Unsed_Language | Prevent cleaning of unused language packs |
+| \Deploy\{allow, Not Allowed}  | Exclude_Defender | Add home directory to Defend excluded directories |
+| \Deploy\{allow, Not Allowed}  | Sync_Volume_Name | System disk volume label: The home directory name is the same |
+| \Deploy\{allow, Not Allowed}  | Desktop_Menu | Add a personalized "context menu" |
 | \Deploy\{allow, Not Allowed}  | Prerequisites_Reboot  | Restart the computer<br>Restarting the computer after completing the prerequisite deployment can solve the problem that needs to be restarted to take effect. |
 
 <dd></dl>
@@ -77,4 +80,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Yi - [https://fengyi.tel](https://fengyi.tel) - 775159955@qq.com
 
-Project Link: [https://github.com/ilikeyi/Multilingual](https://github.com/ilikeyi/Multilingual)
+Project Link: [https://github.com/ilikeyi/Multilingual](https://github.com/ilikeyi/Yi.Optimiz.Private)
