@@ -1,7 +1,7 @@
 Available languages
 -
- * [United States - English](https://github.com/ilikeyi/Yi.Optimiz.Private)
- * 简体中文 - 中国
+ * United States - English
+ * [简体中文 - 中国](https://github.com/ilikeyi/Yi.Optimiz.Private/blob/main/Learn/README.zh-CN.md)
 
 <br>
 
