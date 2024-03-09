@@ -139,33 +139,40 @@ Set-ExecutionPolicy -ExecutionPolicy Bypass -Force
       </dd>
 
 <br>
-      <dd>8.10. 隐私设置<dl><dd>诊断跟踪计划任务，向 MS 发送语音、墨迹和打字样本，向 MS 发送联系人，让网站通过访问我的语言列表来提供本的相关内容，让应用使我的广告 ID 进行跨应用体验，位置感知打印，设置同步，墨迹书写和打字个性化，与未配对设备共享信息，位置传感器，Windows Hello 生物识别，兼容性遥测，诊断数据，量身定制的体验，反馈通知，位置追踪，互联用户体验和遥测，默认应用的后台访问，向 MS 提交 Windows Defend 调查结果，时间轴时间，收集活动历史记录</dl></dd></dd>
+      <dd>
+         <p>8.10. Privacy setting</p>
+         <dl><dd>Diagnostics Track scheduled tasks, send voice, ink, and typing samples to MS, send contacts to MS, let websites provide relevant content for this book by accessing my language list, let apps use my advertising ID for cross-app experiences, location awareness Printing, settings sync, inking and typing personalization, sharing information with unpaired devices, location sensors, Windows Hello biometrics, compatibility telemetry, diagnostic data, tailored experiences, feedback notifications, location tracking, connected user experience and Telemetry, background access to default apps, submit Windows Defend findings to MS, timeline time, collect activity history</dl></dd>
+      </dd>
 
 <br>
-      <dd>8.11. 其它：<dl><dd>启用 3389 远程桌面，打开 SMB 文件共享</dl></dd></dd>
+      <dd>
+         <p>8.11. Other:</p>
+         <dl><dd>Enable 3389 Remote Desktop, open SMB file sharing</dl></dd>
+      </dd>
 
 <br>
-      <dd>8.12. 清理：<dl><dd>发送到，系统日志，磁盘清理，WinSxS</dl></dd></dd>
+      <dd>
+         <p>8.12. Cleanup: </p>
+         <dl><dd>Send to, syslog, disk cleanup, WinSxS</dl></dd>
+      </dd>
    </dl>
 </ul>
 
 <br>
 <ul>
-   <p>9. 优化服务</p>
+   <p>9. Optimize services</p>
    <dl>
-      <dd>9.1. 关闭 Windows 更新</dd>
-      <dd>9.2. Microsoft Defender 防火墙</dd>
-      <dd>9.3. 删除 OneDrive</dd>
-      <dd>9.4. 删除 Edge</dd>
-      <dd>9.5. 删除 小组件</dd>
+      <dd>9.1. Turn off Windows Update</dd>
+      <dd>9.2. Microsoft Defender Firewall</dd>
+      <dd>9.3. Delete widget</dd>
    </dl>
 </ul>
 
 <br>
 <ul>
-   <p>10. 删除 UWP 应用</p>
+   <p>10. Delete UWP app</p>
    <dl>
-      <dd>阻止重新安装应用程序，隐藏 在 "设置" 应用中向我推荐内容，关闭 Microsoft Store 自动下载 ，阻止安装“建议的应用程序”，有关如何设置设备的建议</dd>
+      <dd>Block app reinstallation, Hide Recommend me content in the Settings app, Turn off Microsoft Store automatic downloads, Block installation of Suggested Apps, Suggestions on how to set up your device</dd>
    </dl>
 </ul>
 
