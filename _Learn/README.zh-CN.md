@@ -14,7 +14,7 @@ Yi's Optimiz Private
 <ul>4. 自定义创建升级包</ul>
 <ul><dl><dd>
 
-[学习：如何创建自定义升级包](https://github.com/ilikeyi/Yi.Optimiz.Private/blob/main/Learn/Custom.upgrade.package/Readme.md)
+[学习：如何创建自定义升级包](https://github.com/ilikeyi/Yi.Optimiz.Private/blob/main/_Learn/Custom.upgrade.package/Readme.md)
 </dd></dd></ul>
 
 <br>
@@ -56,7 +56,7 @@ Yi's Optimiz Private
 
 <ul><dl><dd>
 
-[学习：使用部署标记干预部署过程](https://github.com/ilikeyi/Yi.Optimiz.Private/tree/main/Learn/Deployment.Tag)
+[学习：使用部署标记干预部署过程](https://github.com/ilikeyi/Yi.Optimiz.Private/tree/main/_Learn/Deployment.Tag)
 </dl></dd></ul>
 
 <br>
