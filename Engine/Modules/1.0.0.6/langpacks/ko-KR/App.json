@@ -1,0 +1,89 @@
+﻿{
+	"Config": {
+		"Authon":  "Yi Feng",
+		"Website": "https://fengyi.tel",
+		"LatestTime": "7-23-2023",
+		"DefaultSelect": [
+			"45bf2c42-ec67-440a-8403-0ad31864f47a",
+			"a1f51cf8-32c8-431c-8b2e-f7f8ad208863",
+			"fff5fb9c-1ee2-4e74-865e-7e416ef13b68",
+			"2d4983a1-3568-4a23-8824-ffbd33a88dcc"
+		]
+	},
+	"App": [
+	    {
+			"Group": "브라우저",
+			"App": [
+				{
+					"GUID":      "45bf2c42-ec67-440a-8403-0ad31864f47a",
+					"Name":      "Google Chrome",
+					"Action":    "Install",
+					"Manner":    "Queue",
+					"DLetter":   "PSScriptRoot",
+					"Structure": "..\\..\\..\\..\\00\\Google Chrome",
+					"Unpwd":     "",
+					"Url": {
+						"arm64": "",
+						"x64":   "",
+						"x86":   "https://dl.google.com/chrome/install/latest/chrome_installer.exe"
+					},
+					"FindFile":  "Chrome*",
+					"param":     "/silent /install"
+				},
+				{
+					"GUID":      "9559adbe-95f3-4cc1-ad3e-fd3189d093aa",
+					"Name":      "Google Chrome Canary",
+					"Action":    "Install",
+					"Manner":    "Queue",
+					"DLetter":   "PSScriptRoot",
+					"Structure": "..\\..\\..\\..\\00\\Google Chrome Canary",
+					"Unpwd":     "",
+					"Url": {
+						"arm64": "",
+						"x64":   "",
+						"x86":   "https://commondatastorage.googleapis.com/chrome-canary/chrome_installer.exe"
+					},
+					"FindFile":  "Chrome*",
+					"param":     "/silent /install"
+				}
+			]
+		},
+		{
+			"Group": "압축 소프트웨어",
+			"App": [
+				{
+					"GUID":      "a1f51cf8-32c8-431c-8b2e-f7f8ad208863",
+					"Name":      "7Zip",
+					"Action":    "Install",
+					"Manner":    "Queue",
+					"DLetter":   "PSScriptRoot",
+					"Structure": "..\\..\\..\\..\\00\\7z",
+					"Unpwd":     "",
+					"Url": {
+						"arm64": "https://www.7-zip.org/a/7z2301-arm64.exe",
+						"x64":   "https://www.7-zip.org/a/7z2301-x64.exe",
+						"x86":   "https://www.7-zip.org/a/7z2301.exe"
+					},
+					"FindFile":  "7z*",
+					"param":     "/S"
+				},
+				{
+					"GUID":      "fff5fb9c-1ee2-4e74-865e-7e416ef13b68",
+					"Name":      "WinRAR",
+					"Action":    "Install",
+					"Manner":    "Queue",
+					"DLetter":   "PSScriptRoot",
+					"Structure": "..\\..\\..\\..\\00\\WinRAR",
+					"Unpwd":     "",
+					"Url": {
+						"arm64": "",
+						"x64":   "https://www.rarlab.com/rar/winrar-x64-624kr.exe",
+						"x86":   "https://www.rarlab.com/rar/winrar-x32-624kr.exe"
+					},
+					"FindFile":  "winrar*",
+					"param":     "/S"
+				}
+			]
+		}
+	]
+}
