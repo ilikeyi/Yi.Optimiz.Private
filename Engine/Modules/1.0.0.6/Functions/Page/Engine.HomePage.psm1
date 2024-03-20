@@ -12,7 +12,7 @@ Function Logo
 	Write-Host "`n   Author: $((Get-Module -Name Engine).Author) ( $((Get-Module -Name Engine).HelpInfoURI) )
 
    From: $((Get-Module -Name Engine).Author)'s Solutions
-   buildstring: $((Get-Module -Name Engine).Version.ToString()).bs_release.230429-1208`n"
+   buildstring: $((Get-Module -Name Engine).Version.ToString()).bs_release.2024.04.18`n"
 }
 
 <#

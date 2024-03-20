@@ -27,13 +27,38 @@ Function Prerequisite
 	Write-Host -NoNewline "   Checking Must be elevated to higher authority".PadRight(75)
 	if (([System.Security.Principal.WindowsIdentity]::GetCurrent()).groups -match "S-1-5-32-544") {
 		Write-Host "OK".PadLeft(8) -ForegroundColor Green
+
+		Write-Host -NoNewline "   Check execution strategy".PadRight(75)
+		switch (Get-ExecutionPolicy) {
+			"Bypass" {
+				Write-Host "Pass".PadLeft(8) -ForegroundColor Green
+			}
+			"RemoteSigned" {
+				Write-Host "Pass".PadLeft(8) -ForegroundColor Green
+			}
+			"Unrestricted" {
+				Write-Host "Pass".PadLeft(8) -ForegroundColor Green
+			}
+			default {
+				Write-Host "Did not pass".PadLeft(8) -ForegroundColor Red
+
+				Write-host "`n   How to solve: " -ForegroundColor Yellow
+				Write-host "   $('-' * 80)"	
+				Write-host "     1. Open ""Terminal"" or ""PowerShell ISE"" as an administrator, "
+				Write-host "        set PowerShell execution policy: Bypass, PS command line: `n"
+				Write-host "        Set-ExecutionPolicy -ExecutionPolicy Bypass -Force" -ForegroundColor Green
+				Write-host "`n     2. Once resolved, rerun the command`n"
+				return
+			}
+		}
 	} else {
 		Write-Host "Failed".PadLeft(8) -ForegroundColor Red
-		Write-Host "`n   It will automatically exit after 6 seconds." -ForegroundColor Red
-		start-process "timeout.exe" -argumentlist "/t 6 /nobreak" -wait -nonewwindow
-		Modules_Import
-		Stop-Process $PID
-		exit
+
+		Write-host "`n   How to solve: " -ForegroundColor Yellow
+		Write-host "   $('-' * 80)"	
+		Write-host "     1. Open ""Terminal"" or ""PowerShell ISE"" as an administrator."
+		Write-host "`n     2. Once resolved, rerun the command`n"
+		return
 	}
 
 	Write-Host "`n   Congratulations, it has passed." -ForegroundColor Green
