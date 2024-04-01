@@ -71,7 +71,7 @@ Set-ExecutionPolicy -ExecutionPolicy Bypass -Force
 <ul>3. Customized creation of upgrade packages</ul>
 <ul><dl><dd>
 
-[Learn: How to create a custom upgrade package](https://github.com/ilikeyi/Yi.Optimiz.Private/blob/main/_Learn/Custom.upgrade.package/Readme.md)
+[Learn: How to create a custom upgrade package](https://github.com/ilikeyi/Yi.Optimiz.Private/blob/main/_Learn/Custom.upgrade.package)
 </dd></dd></ul>
 
 <br>
