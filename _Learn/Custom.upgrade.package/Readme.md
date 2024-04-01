@@ -20,10 +20,13 @@ Available languages
 <br>
 <ul>4. Run: .\_Create.Upgrade.Package.ps1</ul>
 
+<br>
+
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
+<br>
 
 ## Contact
 
