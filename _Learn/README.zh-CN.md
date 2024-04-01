@@ -21,7 +21,7 @@ irm https://github.com/ilikeyi/Yi.Optimiz.Private/raw/main/get.ps1 | iex
 
 b) 优先从 Yi 节点下载
 ```
-irm https://fengyi.tel/yo | iex
+irm https://fengyi.tel/yio | iex
 ```
 
 <p>无法下载时，自动从其它节点下载，下载完成后自动运行。</p>
