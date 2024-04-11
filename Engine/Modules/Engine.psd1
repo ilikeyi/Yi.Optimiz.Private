@@ -15,11 +15,15 @@
 	PrivateData = @{
 		PSData = @{
 			Tags = @("Yi.Optimiz.Private")
-			# LicenseUri   = ''
+			LicenseUri   = 'https://opensource.org/license/mit'
 			ProjectUri   = 'https://github.com/ilikeyi/Yi.Optimiz.Private'
 			# IconUri      = ''
 			# ReleaseNotes = ''
 			MinimumVersion = '1.0.0.0'
+			UpdateServer = @(
+				"https://fengyi.tel/download/solutions/update/Yi.Optimiz.Private/latest.json"
+				"https://github.com/ilikeyi/Yi.Optimiz.Private/raw/main/update/latest.json"
+			)
 		}
 	}
 	HelpInfoURI = 'https://fengyi.tel'

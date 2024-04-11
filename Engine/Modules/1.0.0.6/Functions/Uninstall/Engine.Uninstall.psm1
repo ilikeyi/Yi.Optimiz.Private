@@ -112,7 +112,7 @@ Function Uninstall
 			}
 			if ($UI_Main_Restore_Restricted.Checked) {
 				Write-Host "`n   $($lang.Restricted)`n" -ForegroundColor Green
-				Set-ExecutionPolicy -ExecutionPolicy Restricted -Force -ErrorAction SilentlyContinue
+				Set-ExecutionPolicy -ExecutionPolicy Restricted -Force
 			}
 			if ($UI_Main_Uninstall_Next.Checked) {
 				<#

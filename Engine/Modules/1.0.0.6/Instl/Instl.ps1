@@ -903,9 +903,9 @@ Function Join_Url
 	)
 	if ($Path.EndsWith('/'))
 	{
-		return "$Path"+"$ChildPath"
+		return "$($Path)"+"$($ChildPath)"
 	} else {
-		return "$Path/$ChildPath"
+		return "$($Path)/$($ChildPath)"
 	}
 }
 
@@ -1085,7 +1085,7 @@ Function Install_Process
 							Write-Host "    - $($Script:lang.DownloadLinkError)" -ForegroundColor Red
 						} else {
 							if (Test_URI $url) {
-								Write-Host "      > $($Script:lang.ConnectTo)`n        $url`n      + $($Script:lang.SaveTo)`n        $OutAny"
+								Write-Host "      > $($Script:lang.ConnectTo)`n        $($url)`n      + $($Script:lang.SaveTo)`n        $($OutAny)"
 								Check_Folder -chkpath $OutTo
 								Invoke-WebRequest -Uri $url -OutFile $OutAny -ErrorAction SilentlyContinue | Out-Null
 							} else {
@@ -1126,7 +1126,7 @@ Function Install_Process
 							Write-Host "      - $($Script:lang.DownloadLinkError)" -ForegroundColor Red
 						} else {
 							if (Test_URI $url) {
-								Write-Host "      > $($Script:lang.ConnectTo)`n        $url`n      + $($Script:lang.SaveTo)`n        $OutAny"
+								Write-Host "      > $($Script:lang.ConnectTo)`n        $($url)`n      + $($Script:lang.SaveTo)`n        $($OutAny)"
 								Check_Folder -chkpath $OutTo
 								Invoke-WebRequest -Uri $url -OutFile $OutAny -ErrorAction SilentlyContinue | Out-Null
 							} else {
@@ -1149,7 +1149,7 @@ Function Install_Process
 						if ([string]::IsNullOrEmpty($url)) {
 							Write-Host "      - $($Script:lang.DownloadLinkError)" -ForegroundColor Red
 						} else {
-							Write-Host "      > $($Script:lang.ConnectTo)`n        $url`n      + $($Script:lang.SaveTo)`n        $OutAny"
+							Write-Host "      > $($Script:lang.ConnectTo)`n        $($url)`n      + $($Script:lang.SaveTo)`n        $($OutAny)"
 							Invoke-WebRequest -Uri $url -OutFile $OutAny -ErrorAction SilentlyContinue | Out-Null
 						}
 					}
@@ -1171,7 +1171,7 @@ Function Install_Process
 							Write-Host "      - $($Script:lang.DownloadLinkError)" -ForegroundColor Red
 						} else {
 							if (Test_URI $url) {
-								Write-Host "      > $($Script:lang.ConnectTo)`n        $url`n      + $($Script:lang.SaveTo)`n        $OutAny"
+								Write-Host "      > $($Script:lang.ConnectTo)`n        $($url)`n      + $($Script:lang.SaveTo)`n        $($OutAny)"
 								Check_Folder -chkpath $OutTo
 								Invoke-WebRequest -Uri $url -OutFile $OutAny -ErrorAction SilentlyContinue | Out-Null
 							} else {
@@ -1198,9 +1198,9 @@ Function Install_Process
 				if ([string]::IsNullOrEmpty($url)) {
 					Write-Host "      - $($Script:lang.DownloadLinkError)`n" -ForegroundColor Red
 				} else {
-					Write-Host "      > $($Script:lang.ConnectTo)`n        $url"
+					Write-Host "      > $($Script:lang.ConnectTo)`n        $($url)"
 					if (Test_URI $url) {
-						Write-Host "      + $($Script:lang.SaveTo)`n        $OutAny"
+						Write-Host "      + $($Script:lang.SaveTo)`n        $($OutAny)"
 						Check_Folder -chkpath $OutTo
 						Invoke-WebRequest -Uri $url -OutFile $OutAny -ErrorAction SilentlyContinue | Out-Null
 						Open_Apps -filename $OutAny -param $param -mode $mode
