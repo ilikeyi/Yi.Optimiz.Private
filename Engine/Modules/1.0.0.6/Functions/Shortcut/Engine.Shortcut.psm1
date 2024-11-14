@@ -84,39 +84,15 @@ Function Shortcut_Process
 		Pin_To_Start
 	}
 
-	$FlagFolder00 = "$($PSScriptRoot)\..\..\..\..\..\00"
+	$FlagFolder00 = "$($PSScriptRoot)\..\..\..\..\..\Recommend"
 	if (Test-Path $FlagFolder00 -PathType Container) {
-		$FlagFolder00 = Convert-Path -Path "$($PSScriptRoot)\..\..\..\..\..\00" -ErrorAction SilentlyContinue
+		$FlagFolder00 = Convert-Path -Path "$($PSScriptRoot)\..\..\..\..\..\Recommend" -ErrorAction SilentlyContinue
 
 		if ($FlagsClearSolutionsRule) {
 			Move-Item $FlagFolder00 "$($UniqueMainFolder)\$($lang.InstlPacker)" -Force -ErrorAction SilentlyContinue
 		} else {
 			Start-Process -FilePath $DeskEdit -ArgumentList "/F=""$($FlagFolder00)"" /S=.ShellClassInfo /L=LocalizedResourceName=""$($lang.InstlPacker)"""
 		}
-	}
-
-	$FlagFolder10 = "$($PSScriptRoot)\..\..\..\..\..\10"
-	Check_Folder -chkpath $FlagFolder10
-	Check_Folder -chkpath "$($StartMenu)\$($lang.MostUsedSoftware)"
-	if ($FlagsClearSolutionsRule) {
-		write-host "$($UniqueMainFolder)\$($lang.MostUsedSoftware)"
-		Move-Item $FlagFolder10 "$($UniqueMainFolder)\$($lang.MostUsedSoftware)" -Force -ErrorAction SilentlyContinue
-		$NewFolderName = $($lang.MostUsedSoftware)
-	} else {
-		Start-Process -FilePath $DeskEdit -ArgumentList "/F=""$($FlagFolder10)"" /S=.ShellClassInfo /L=LocalizedResourceName=""$($lang.MostUsedSoftware)"""
-		$NewFolderName = "10"
-	}
-
-	$ShortcutNew = "$(Get_Arch_Path -Path "$($PSScriptRoot)\..\..\..\..\AIO\Wub")"
-	if (Test-Path "$($ShortcutNew)\Wub.exe" -PathType Leaf) {
-		Start-Process -FilePath $Shortcut -ArgumentList "/f:""$($Global:UniqueMainFolder)\$($NewFolderName)\$($lang.Wub).lnk"" /a:c /t:""$($ShortcutNew)\Wub.exe"" /w:""$($ShortcutNew)"" /i:""$($ShortcutNew)\Wub.exe""" -WindowStyle Hidden
-		Start-Process -FilePath $Shortcut -ArgumentList "/f:""$($StartMenu)\$($lang.MostUsedSoftware)\$($lang.Wub).lnk"" /a:c /t:""$($ShortcutNew)\Wub.exe"" /w:""$($ShortcutNew)"" /i:""$($ShortcutNew)\Wub.exe""" -WindowStyle Hidden
-	}
-
-	$ShortcutNew = "$(Get_Arch_Path -Path "$($PSScriptRoot)\..\..\..\..\AIO\Fab")"
-	if (Test-Path "$($ShortcutNew)\Fab.exe" -PathType Leaf) {
-		Start-Process -FilePath $Shortcut -ArgumentList "/f:""$($Global:UniqueMainFolder)\$($NewFolderName)\$($lang.Fab).lnk"" /a:c /t:""$($ShortcutNew)\Fab.exe"" /w:""$($ShortcutNew)"" /i:""$($ShortcutNew)\Fab.exe""" -WindowStyle Hidden
-		Start-Process -FilePath $Shortcut -ArgumentList "/f:""$($StartMenu)\$($lang.MostUsedSoftware)\$($lang.Fab).lnk"" /a:c /t:""$($ShortcutNew)\Fab.exe"" /w:""$($ShortcutNew)"" /i:""$($ShortcutNew)\Fab.exe""" -WindowStyle Hidden
 	}
 
 	Wait-Process -Name "Shortcut" -ErrorAction SilentlyContinue
